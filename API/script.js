@@ -2,7 +2,7 @@ const BASE_URL = 'https://thatcopy.pw/catapi/rest/';
 const catBtn = document.getElementById ('change-cat');
 const catImg = document.getElementById('cat');
 
-const getCats = async () =>{
+const getCats = async () => {
     try{
     const data = await fetch (BASE_URL);
     const json = await data.json();
